@@ -24,6 +24,7 @@ let access = ANT_DESIGN_PRO_ONLY_DO_NOT_USE_IN_YOUR_PRODUCTION === 'site' ? 'adm
 
 const getAccess = () => {
   return access;
+  // return true
 };
 
 // 代码中会兼容本地 service mock 以及部署站点的静态数据
